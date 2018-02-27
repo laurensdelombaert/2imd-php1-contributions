@@ -1,0 +1,69 @@
+body {
+  background-color: #2f313c;
+}
+
+.body-wrapper {
+  width: 375px;
+  height: 667px;
+  margin: 50px auto 50px;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+div.grid-container {
+  text-align: center;
+}
+
+div.grid-container .grid-item {
+  margin: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 200px 75px;
+  border-bottom: 2px solid white;
+}
+
+.time {
+  text-align: center;
+}
+
+.time p {
+  border-right: 1px solid white;
+}
+
+.description {
+  text-align: center;
+}
+
+.category {
+  text-align: center;
+}
+
+.category p {
+  border-left: 1px solid white;
+}
+
+p {
+  font-weight: bold;
+  color: #fff;
+  padding: 10px;
+}
+
+.hard {
+  background-color: #e84c4c;
+}
+
+.medium {
+  background-color: #f1a823;
+}
+
+.easy {
+  background-color: #78d078;
+}
