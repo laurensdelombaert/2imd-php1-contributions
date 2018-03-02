@@ -1,0 +1,108 @@
+body {
+  background-color: #2f313c;
+}
+
+.body-wrapper {
+  width: 375px;
+  height: 667px;
+  margin: 50px auto 50px;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 200px 75px;
+  margin-bottom: 15px;
+}
+
+.profile-photo {
+  text-align: center;
+}
+
+.profile-photo img {
+  width: 70%;
+}
+
+.user-information {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-weight: bold;
+  color: orange;
+}
+
+.location {
+  color: grey;
+}
+
+.distance {
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+.distance img {
+  width: 30%;
+  margin-bottom: 5px;
+}
+
+.status {
+  font-weight: bold;
+}
+
+header {
+  background-color: orange;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.profile-picture {
+  text-align: center;
+}
+
+.profile-picture img {
+  width: 50%;
+}
+
+.profile-location {
+  color: white;
+  margin-top: 20px;
+}
+
+.profile-icon {
+  text-align: center;
+}
+
+.profile-icon img {
+  width: 60%;
+  margin-top: 5px;
+}
+
+.footer-grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin-bottom: 0;
+  box-shadow: 0 -1px 2px 0px #0000002b;
+}
+
+.footer-grid-item {
+  height: 50px;
+  background-color: #fbfbfb;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  margin: 0;
+}
