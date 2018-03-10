@@ -1,0 +1,58 @@
+* { box-sizing: border-box; }
+body {
+    font: 100% / 150% "Open Sans", sans-serif;
+    color: #2c3e50;
+}
+.clearfix {
+    display: block;
+    clear: both;
+    content: " ";
+}
+h1, nav { display: inline-block; }
+nav ul li a {  font-size: 1em; }
+aside#filter ul li a {
+    background: #c0392b;
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: .5em;
+    transition: opacity .7s ease-in-out;
+}
+aside#filter ul li a.active { background: #2c3e50; }
+aside#filter ul li a:hover { opacity: 0.7; }
+aside#filter { margin-bottom: 25px; }
+figure {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    margin: 0 25px 0 0;
+    float: left;
+}
+figure img { max-width: 100%; }
+ul {
+    list-style: none;
+    margin: 0;
+}
+ul li {
+    display: inline-block;
+    margin: 15px 15px 0 0;
+}
+main article { padding: 25px; }
+main article:nth-child(odd) { background: #ecf0f1; }
+time {
+    color: #c0392b;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+span.artist {
+    font-weight: bold;
+    font-size: 1.35em;
+}
+p { margin: 0; }
+ul li::before { font-family: "FontAwesome", sans-serif; }
+ul li.hour::before { content: "\f017"; }
+ul li.location::before { content: "\f041"; }
+ul li.ticket::before { content: "\f09d"; }
